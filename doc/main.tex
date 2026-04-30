@@ -145,7 +145,7 @@ E_OBC, psi_OBC = np.linalg.eigh(obc_Hamiltonian(N))
     \textbf{(b) OBC:} For the open boundary conditions, we can use standing wave eigenstates, we can write:
 
     $$
-        \psi_n = \frac{1}{\sqrt{N}} \sin\left(\frac{m\pi n}{N + 1}\right)
+        \psi_n = \sqrt{\frac{2}{N + 1}} \sin\left(\frac{m\pi n}{N + 1}\right)
     $$
 
     where $m = 1, 2, \ldots, N$. Thus, we can substitute this into the eigenequation and find the corresponding eigenvalues:
@@ -155,7 +155,7 @@ E_OBC, psi_OBC = np.linalg.eigh(obc_Hamiltonian(N))
     $$
 
     \begin{itemize}
-        \item Both systems share the same energy spectrum, which can be observed from both the plot and the analytical expressions.
+        \item Both systems have very similar spectra for $N = 100$.
         \item There is a degeneracy in the periodic system because of periodic boundary conditions. This periodicity maintains the translational symmetry which ensures that each atom has the same neighborhood environment. Therefore, this symmetry leads to degenerate energy levels.
         \item The open system breaks this degeneracy because the boundary conditions are different, leading to a unique energy spectrum for each state.
     \end{itemize}
@@ -163,7 +163,7 @@ E_OBC, psi_OBC = np.linalg.eigh(obc_Hamiltonian(N))
 
 \begin{question}{}{}
     \begin{enumerate}
-        \item Plot the wave func1on probability distribu1on, $|\psi(x)|^2$, for the ground state and ﬁrst two excited states of the \textbf{periodic} system as a func1on of posi1on and show them on the same plot. What do you no1ce about the ﬁrst two excited states?
+        \item Plot the wave func1on probability distribu1on, $|\psi(x)|^2$, for the ground state and ﬁrst two excited states of the \textbf{periodic} system as a func1on of posi1on and show them on the same plot. What do you notice about the ﬁrst two excited states?
         \item Plot the wave func1on probability distribu1on, $|\psi_m(x)|^2$, for the ground state and first two excited states of the \textbf{open} system as a func1on of posi1on and show them on the same plot. What do you notice about the number of nodes?
     \end{enumerate}
 \end{question}
@@ -189,7 +189,7 @@ E_OBC, psi_OBC = np.linalg.eigh(obc_Hamiltonian(N))
 
 \begin{note}{}
     \begin{enumerate}
-        \item PBC: The probability distribution for the ground state and first two excited states shows a periodic pattern due to the periodic boundary conditions. For the first two states, they are degenerate so their wave functions are identical despite an overall phase shift.
+        \item PBC: The probability distribution for the ground state and first two excited states shows a periodic pattern due to the boundary conditions. For the first two excited states, they are degenerate and the numerical eigenvectors are different linear combinations of the degenerate states. But both of them show two nodes, and their shapes are quite alike.
         \item OBC: The number of nodes in the probability distribution for the ground state and first two excited states are 0, 1, and 2 respectively, increasing with the energy level.
     \end{enumerate}
 \end{note}
@@ -276,7 +276,7 @@ True
 
 \begin{question}{}{}
     \begin{itemize}
-        \item Numerically calculate the band structure for the periodic system for $N = 100$ for different ra1os of $\nu/\omega = \{0.5,1,2\}$. 
+        \item Numerically calculate the band structure for the periodic system for $N = 100$ for different ratios of $\nu/\omega = \{0.5,1,2\}$. 
         \item Which parameters correspond to a metal and which correspond to an insulator?
         \item Plot the numerical band structures for the different parameters of $\nu/\omega$.
     \end{itemize}
@@ -290,19 +290,19 @@ True
     \begin{minipage}{0.32\textwidth}
         \centering
         \includegraphics[width=\textwidth]{fig/Question 2/PBC_E_1.png}
-        \caption{SSH Hamiltonian in PBC ($\nu = 0.5$)}
+        \caption{SSH PBC energy spectrum for $\nu/\omega = 0.5$}
     \end{minipage}
     \hfill
     \begin{minipage}{0.32\textwidth}
         \centering
         \includegraphics[width=\textwidth]{fig/Question 2/PBC_E_2.png}
-        \caption{SSH Hamiltonian in PBC ($\nu = 1.0$)}
+        \caption{SSH PBC energy spectrum for $\nu/\omega = 1.0$}
     \end{minipage}
     \hfill
     \begin{minipage}{0.32\textwidth}
         \centering
         \includegraphics[width=\textwidth]{fig/Question 2/PBC_E_3.png}
-        \caption{SSH Hamiltonian in PBC ($\nu = 2.0$)}
+        \caption{SSH PBC energy spectrum for $\nu/\omega = 2.0$}
     \end{minipage}
 
 \end{figure}
@@ -312,7 +312,7 @@ True
 \section{Task 3:  Edge states}
 \setcounter{tcb@cnt@question}{0}
 
-\qs{}{Construct the OBC Hamiltonian of the SSH model for 𝑁 = 50 and plot the energy spectrum for different ra1os of $\nu/\omega = \{0.5,1,2\}$.}
+\qs{}{Construct the OBC Hamiltonian of the SSH model for $N = 50$ and plot the energy spectrum for different ratios of $\nu/\omega = \{0.5,1,2\}$.}
 
 \sol Calculate the energy spectrum for the open system for $N = 50$ and different values of $\nu/\omega$ and plot the energy spectrum:
 
@@ -322,25 +322,25 @@ True
     \begin{minipage}{0.32\textwidth}
         \centering
         \includegraphics[width=\textwidth]{fig/Question 2/OBC_E_1.png}
-        \caption{SSH Hamiltonian in OBC ($\nu = 0.5$)}
+        \caption{SSH OBC energy spectrum for $\nu/\omega = 0.5$}
     \end{minipage}
     \hfill
     \begin{minipage}{0.32\textwidth}
         \centering
         \includegraphics[width=\textwidth]{fig/Question 2/OBC_E_2.png}
-        \caption{SSH Hamiltonian in OBC ($\nu = 1.0$)}
+        \caption{SSH OBC energy spectrum for $\nu/\omega = 1.0$}
     \end{minipage}
     \hfill
     \begin{minipage}{0.32\textwidth}
         \centering
         \includegraphics[width=\textwidth]{fig/Question 2/OBC_E_3.png}
-        \caption{SSH Hamiltonian in OBC ($\nu = 2.0$)}
+        \caption{SSH OBC energy spectrum for $\nu/\omega = 2.0$}
     \end{minipage}
 \end{figure}
 
 \begin{question}{}{}
     \begin{itemize}
-        \item Identify the zero-energy states for the case when $\nu/\omega$. How many are they?
+        \item Identify the zero-energy states for the case when $\nu/\omega = 0.5$. How many are they?
         \item Plot the zero-energy states wavefunctions and verify that they are localized at the boundaries, hence the name ‘edge’ states.
     \end{itemize}
 \end{question}
@@ -397,7 +397,7 @@ Plotting the wave functions of the zero-energy states:
 
             where $\epsilon_{nA, B}$ are random variables drawn from a uniform distribu1on in the range $[-W,W]$. 
 
-        \item Show that the zero-energy localized states persist for small noise amplitudes $(W < |\omega - \nu|)$ by ploVng the spectrum and their wave func1on probability distribu1ons. For concreteness, use $\nu = 0.5$ and $W = \{0.2,0.4\}$.
+        \item Show that the zero-energy localized states persist for small noise amplitudes $(W < |\omega - \nu|)$ by plotting the spectrum and their wave function probability distribu1ons. For concreteness, use $\nu = 0.5$ and $W = \{0.2,0.4\}$.
     \end{itemize}
 \end{question}
 
@@ -506,8 +506,6 @@ Complete code for this project will be provided as follows for reference. Since 
 import numpy as np
 import matplotlib.pyplot as plt
 import scipy
-from turtle import color
-from cProfile import label
 \end{lstlisting}
 
 \section*{Simple tight-binding model code}

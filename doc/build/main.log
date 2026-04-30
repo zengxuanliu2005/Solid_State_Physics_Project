@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.8)  30 APR 2026 15:25
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.8)  30 APR 2026 15:42
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1265,8 +1265,6 @@ File: fig/Question 2/PBC_E_2.png Graphic file (type bmp)
 File: fig/Question 2/PBC_E_3.png Graphic file (type bmp)
 <fig/Question 2/PBC_E_3.png>
 
-Missing character: There is no 𝑁 (U+1D441) in font [lmroman10-regular]:mapping=tex-text;!
-
 
 [7]
 File: fig/Question 2/OBC_E_1.png Graphic file (type bmp)
@@ -1329,12 +1327,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 37050 strings out of 473832
- 746575 string characters out of 5729482
+ 37048 strings out of 473832
+ 746551 string characters out of 5729482
  1658390 words of memory out of 5000000
- 59421 multiletter control sequences out of 15000+600000
+ 59419 multiletter control sequences out of 15000+600000
  597771 words of font info for 120 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  103i,7n,108p,672b,1747s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on build/main.xdv (18 pages, 577928 bytes).
+Output written on build/main.xdv (18 pages, 577456 bytes).
