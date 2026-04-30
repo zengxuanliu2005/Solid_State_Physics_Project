@@ -490,34 +490,35 @@ INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/newpx/zplsyc.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/newpx/zplexa.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/newpx/zplexa.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/newpx/zplexa.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmtt8.tfm
+INPUT ./fig/Question 1/Eigenvalues_PBC_OBC.png
+INPUT ./fig/Question 1/Eigenvalues_PBC_OBC.png
+INPUT ./fig/Question 1/Eigenvalues_PBC_OBC.png
+INPUT ./fig/Question 1/PBC_Prob_Distribution.png
+INPUT ./fig/Question 1/PBC_Prob_Distribution.png
+INPUT ./fig/Question 1/PBC_Prob_Distribution.png
+INPUT ./fig/Question 1/OBC_Prob_Distribution.png
+INPUT ./fig/Question 1/OBC_Prob_Distribution.png
+INPUT ./fig/Question 1/OBC_Prob_Distribution.png
+INPUT ./fig/Question 2/PBC_E_1.png
+INPUT ./fig/Question 2/PBC_E_1.png
+INPUT ./fig/Question 2/PBC_E_1.png
+INPUT ./fig/Question 2/PBC_E_2.png
+INPUT ./fig/Question 2/PBC_E_2.png
+INPUT ./fig/Question 2/PBC_E_2.png
+INPUT ./fig/Question 2/PBC_E_3.png
+INPUT ./fig/Question 2/PBC_E_3.png
+INPUT ./fig/Question 2/PBC_E_3.png
+INPUT ./fig/Question 2/OBC_E_1.png
+INPUT ./fig/Question 2/OBC_E_1.png
+INPUT ./fig/Question 2/OBC_E_1.png
+INPUT ./fig/Question 2/OBC_E_2.png
+INPUT ./fig/Question 2/OBC_E_2.png
+INPUT ./fig/Question 2/OBC_E_2.png
+INPUT ./fig/Question 2/OBC_E_3.png
+INPUT ./fig/Question 2/OBC_E_3.png
+INPUT ./fig/Question 2/OBC_E_3.png
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmtt9.tfm
-INPUT ./fig/Question 1/Eigenvalues_PBC_OBC.png
-INPUT ./fig/Question 1/Eigenvalues_PBC_OBC.png
-INPUT ./fig/Question 1/Eigenvalues_PBC_OBC.png
-INPUT ./fig/Question 1/PBC_Prob_Distribution.png
-INPUT ./fig/Question 1/PBC_Prob_Distribution.png
-INPUT ./fig/Question 1/PBC_Prob_Distribution.png
-INPUT ./fig/Question 1/OBC_Prob_Distribution.png
-INPUT ./fig/Question 1/OBC_Prob_Distribution.png
-INPUT ./fig/Question 1/OBC_Prob_Distribution.png
-INPUT ./fig/Question 2/PBC_E_1.png
-INPUT ./fig/Question 2/PBC_E_1.png
-INPUT ./fig/Question 2/PBC_E_1.png
-INPUT ./fig/Question 2/PBC_E_2.png
-INPUT ./fig/Question 2/PBC_E_2.png
-INPUT ./fig/Question 2/PBC_E_2.png
-INPUT ./fig/Question 2/PBC_E_3.png
-INPUT ./fig/Question 2/PBC_E_3.png
-INPUT ./fig/Question 2/PBC_E_3.png
-INPUT ./fig/Question 2/OBC_E_1.png
-INPUT ./fig/Question 2/OBC_E_1.png
-INPUT ./fig/Question 2/OBC_E_1.png
-INPUT ./fig/Question 2/OBC_E_2.png
-INPUT ./fig/Question 2/OBC_E_2.png
-INPUT ./fig/Question 2/OBC_E_2.png
-INPUT ./fig/Question 2/OBC_E_3.png
-INPUT ./fig/Question 2/OBC_E_3.png
-INPUT ./fig/Question 2/OBC_E_3.png
 INPUT ./fig/Question 2/OBC_zero_E_state_1.png
 INPUT ./fig/Question 2/OBC_zero_E_state_1.png
 INPUT ./fig/Question 2/OBC_zero_E_state_1.png
