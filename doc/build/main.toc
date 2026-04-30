@@ -3,4 +3,8 @@
 \contentsline {section}{\numberline {1.2}Task 2: Eigenvalue problem}{3}{section.1.2}%
 \contentsline {chapter}{\numberline {2}The Su–Schrieffer–Heeger (SSH) model}{7}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Task 1: Hamiltonian construction}{7}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Task 2: Bulk band structure}{8}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Task 3: Edge states}{10}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Task 4: Robustness of topological edge states}{12}{section.2.4}%
+\contentsline {chapter}{Appendix}{15}{appendix*.2}%
 \contentsfinish 

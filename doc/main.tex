@@ -106,8 +106,8 @@ E_OBC, psi_OBC = np.linalg.eigh(obc_Hamiltonian(N))
 plt.figure(figsize=(10, 6))
 N = 100
 
-plt.plot(E_PBC, 'o', label='PBC', markersize=5, color='blue')
-plt.plot(E_OBC, 's', label='OBC', markersize=5, color='red')
+plt.plot(E_PBC, 'o', label='PBC', markersize=3, color='blue')
+plt.plot(E_OBC, 's', label='OBC', markersize=3, color='red')
 plt.xlabel('Eigenvalue Index')
 plt.ylabel('Eigenvalue')
 plt.title('Eigenvalues of PBC and OBC Hamiltonians')
@@ -305,5 +305,395 @@ Hamiltonian in OBC:
 True
     \end{lstlisting}
 \end{example}
+
+\section{Task 2:  Bulk band structure}
+\setcounter{tcb@cnt@question}{0}
+
+\begin{question}{}{}
+    \begin{itemize}
+        \item Numerically calculate the band structure for the periodic system for $N = 100$ for different ra1os of $\nu/\omega = \{0.5,1,2\}$. 
+        \item Which parameters correspond to a metal and which correspond to an insulator?
+        \item Plot the numerical band structures for the different parameters of $\nu/\omega$.
+    \end{itemize}
+\end{question}
+
+\sol Calculate band structure for the periodic system for $N = 100$ and different values of $\nu/\omega$ using the code as follows:
+
+\begin{lstlisting}
+# Diagonalize
+N = 100
+nu_1 = 0.5
+nu_2 = 1
+nu_3 = 2
+omega = 1
+E_PBC_1, psi_PBC_1 = np.linalg.eigh(pbc_Hamiltonian(N, nu_1, omega))
+E_PBC_2, psi_PBC_2 = np.linalg.eigh(pbc_Hamiltonian(N, nu_2, omega))
+E_PBC_3, psi_PBC_3 = np.linalg.eigh(pbc_Hamiltonian(N, nu_3, omega))
+\end{lstlisting}
+
+Plotting the band structure:
+
+\begin{lstlisting}
+N = 100
+plt.figure(figsize=(10, 6))
+
+plt.plot(E_PBC_1, 'o', markersize=3, label='PBC (ν=0.5)')
+plt.xlabel('Eigenvalue Index')
+plt.ylabel('Eigenvalue')
+plt.title('Eigenvalues of PBC Hamiltonians')
+plt.legend(loc='upper left')
+plt.grid(True, alpha = 0.3)
+plt.xlim(0, 2 * N)
+plt.show()
+
+plt.figure(figsize=(10, 6))
+
+plt.plot(E_PBC_2, 'o', markersize=3, label='PBC (ν=1.0)')
+plt.xlabel('Eigenvalue Index')
+plt.ylabel('Eigenvalue')
+plt.title('Eigenvalues of PBC Hamiltonians')
+plt.legend(loc='upper left')
+plt.grid(True, alpha = 0.3)
+plt.xlim(0, 2 * N)
+plt.show()
+
+plt.figure(figsize=(10, 6))
+
+plt.plot(E_PBC_3, 'o', markersize=3, label='PBC (ν=2.0)')
+plt.xlabel('Eigenvalue Index')
+plt.ylabel('Eigenvalue')
+plt.title('Eigenvalues of PBC Hamiltonians')
+plt.legend(loc='upper left')
+plt.grid(True, alpha = 0.3)
+plt.xlim(0, 2 * N)
+plt.show()
+\end{lstlisting}
+
+\begin{figure}[H]
+    \centering
+
+    \begin{minipage}{0.32\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{fig/Question 2/PBC_E_1.png}
+        \caption{SSH Hamiltonian in PBC ($\nu = 0.5$)}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.32\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{fig/Question 2/PBC_E_2.png}
+        \caption{SSH Hamiltonian in PBC ($\nu = 1.0$)}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.32\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{fig/Question 2/PBC_E_3.png}
+        \caption{SSH Hamiltonian in PBC ($\nu = 2.0$)}
+    \end{minipage}
+
+\end{figure}
+
+\nt{$\nu = 1$ corresponds to a metal while $\nu = 0.5$ and $\nu = 2.0$ correspond to insulators. Because the energy bands are gapless for $\nu = 1$ and gapped for $\nu = 0.5$ and $\nu = 2.0$.}
+
+\section{Task 3:  Edge states}
+\setcounter{tcb@cnt@question}{0}
+
+\qs{}{Construct the OBC Hamiltonian of the SSH model for 𝑁 = 50 and plot the energy spectrum for different ra1os of $\nu/\omega = \{0.5,1,2\}$.}
+
+\sol Calculate the energy spectrum for the open system for $N = 50$ and different values of $\nu/\omega$ using the code as follows:
+
+\begin{lstlisting}
+# Diagonalize
+N = 50
+nu1 = 0.5
+nu2 = 1
+nu3 = 2
+omega = 1
+E_OBC_1, psi_OBC_1 = np.linalg.eigh(obc_Hamiltonian(N, nu1, omega))
+E_OBC_2, psi_OBC_2 = np.linalg.eigh(obc_Hamiltonian(N, nu2, omega))
+E_OBC_3, psi_OBC_3 = np.linalg.eigh(obc_Hamiltonian(N, nu3, omega))
+\end{lstlisting}
+
+Plotting the energy spectrum for the open system:
+
+\begin{lstlisting}
+plt.figure(figsize=(10, 6))
+N = 50
+
+plt.plot(E_OBC_1, 'o', markersize=3, label='OBC (ν=0.5)')
+plt.xlabel('Eigenvalue Index')
+plt.ylabel('Eigenvalue')
+plt.title('Eigenvalues of OBC Hamiltonians')
+plt.legend(loc='upper left')
+plt.grid(True, alpha = 0.3)
+plt.xlim(0, 2 * N)
+plt.show()
+
+plt.figure(figsize=(10, 6))
+
+plt.plot(E_OBC_2, 'o', markersize=3, label='OBC (ν=1.0)')
+plt.xlabel('Eigenvalue Index')
+plt.ylabel('Eigenvalue')
+plt.title('Eigenvalues of OBC Hamiltonians')
+plt.legend(loc='upper left')
+plt.grid(True, alpha = 0.3)
+plt.xlim(0, 2 * N)
+plt.show()
+
+plt.figure(figsize=(10, 6))
+
+plt.plot(E_OBC_3, 'o', markersize=3, label='OBC (ν=2.0)')
+plt.xlabel('Eigenvalue Index')
+plt.ylabel('Eigenvalue')
+plt.title('Eigenvalues of OBC Hamiltonians')
+plt.legend(loc='upper left')
+plt.grid(True, alpha = 0.3)
+plt.xlim(0, 2 * N)
+plt.show()
+\end{lstlisting}
+
+\begin{figure}[H]
+    \centering
+
+    \begin{minipage}{0.32\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{fig/Question 2/OBC_E_1.png}
+        \caption{SSH Hamiltonian in OBC ($\nu = 0.5$)}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.32\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{fig/Question 2/OBC_E_2.png}
+        \caption{SSH Hamiltonian in OBC ($\nu = 1.0$)}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.32\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{fig/Question 2/OBC_E_3.png}
+        \caption{SSH Hamiltonian in OBC ($\nu = 2.0$)}
+    \end{minipage}
+\end{figure}
+
+\begin{question}{}{}
+    \begin{itemize}
+        \item Identify the zero-energy states for the case when $\nu/\omega$. How many are they?
+        \item Plot the zero-energy states wavefunctions and verify that they are localized at the boundaries, hence the name ‘edge’ states.
+    \end{itemize}
+\end{question}
+
+\sol Identify the zero-energy states for the case when $\nu/\omega = 0.5$ using threshold $\epsilon = 1e-10$, and plot the wave functions of the zero-energy states:
+
+\begin{lstlisting}
+zero_states = np.where(np.abs(E_OBC_1) < 1e-10)[0]
+print("Zero-energy state indices:", zero_states)
+print("Number of zero-energy states:", len(zero_states))
+print("Energies:", E_OBC_1[zero_states])
+\end{lstlisting}
+
+The outputs are as follows:
+
+\begin{lstlisting}
+Zero-energy state indices: [49 50]
+Number of zero-energy states: 2
+Energies: [-9.54080635e-16  3.78186994e-16]
+\end{lstlisting}
+
+\nt{The outputs show that there are two zero-energy states for the case when $\nu/\omega = 0.5$.}
+
+Plotting the wave functions of the zero-energy states:
+
+\begin{lstlisting}
+x = np.arange(2 * N)
+for i in zero_states:
+    prob = np.abs(psi_OBC_1[:, i])**2
+    plt.figure(figsize=(10, 6))
+    plt.plot(x, prob, label=f"Zero-energy state {i}")
+
+    plt.xlabel("Position index")
+    plt.ylabel(r"$|\psi(x)|^2$")
+    plt.title("OBC SSH zero-energy state wavefunction")
+    plt.legend(loc="upper left")
+    plt.grid(True, alpha=0.3)
+    plt.xlim(0, 2 * N - 1)
+    plt.show()
+\end{lstlisting}
+
+\begin{figure}[H]
+    \centering
+
+    \begin{minipage}{0.48\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{fig/Question 2/OBC_zero_E_state_1.png}
+        \caption{Zero-energy state wavefunction 1}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.48\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{fig/Question 2/OBC_zero_E_state_2.png}
+        \caption{Zero-energy state wavefunction 2}
+    \end{minipage}
+\end{figure}
+
+\nt{As shown in the plots, the wavefuncitons of zero-energy state are quite localized at the boundaries, which confirms that they are indeed edge states.}
+
+\section{Task 4: Robustness of topological edge states}
+\setcounter{tcb@cnt@question}{0}
+
+\begin{question}{}{}
+    \begin{itemize}
+        \item Add a weak random on-site disorder to your OBC SSH Hamiltonian,
+
+            $$
+            H_\text{disorder} = \sum_n \epsilon_{nA} \ket{n; A}\bra{n; A} + \epsilon_{nB} \ket{n; B}\bra{n; B}
+            $$
+
+            where $\epsilon_{nA, B}$ are random variables drawn from a uniform distribu1on in the range $[−W,W]$. 
+
+        \item Show that the zero-energy localized states persist for small noise amplitudes $(W < |\omega − \nu|)$ by ploVng the spectrum and their wave func1on probability distribu1ons. For concreteness, use $\nu = 0.5$ and $W = \{0.2,0.4\}$.
+    \end{itemize}
+\end{question}
+
+\sol Construct the disordered Hamiltonian by adding random on-site disorder to the OBC SSH Hamiltonian:
+
+\begin{lstlisting}
+# OBC Hamiltonian for SSH model with disorder
+def obc_Hamiltonian_disordered(n, W, nu, omega=1, seed=None):
+    H = np.zeros((2 * n, 2 * n))
+    rng = np.random.default_rng(seed)
+    # SSH Hamiltonian
+    for i in range(n):
+        H[2 * i + 1, 2 * i] = -nu
+        H[2 * i, 2 * i + 1] = -nu
+    for i in range(n - 1):
+        H[2 * (i + 1), 2 * i + 1] = -omega
+        H[2 * i + 1, 2 * (i + 1)] = -omega
+    # Disorder term
+    for i in range(n):
+        H[2 * i, 2 * i] = rng.uniform(-W, W)
+        H[2 * i + 1, 2 * i + 1] = rng.uniform(-W, W)
+
+    return H
+\end{lstlisting}
+
+Calculate the energy spectrum and wave function probability distributions for the disordered system using the random seed of $67$ for reproducibility:
+
+\begin{lstlisting}
+W1 = 0.2
+W2 = 0.4
+nu = 0.5
+N = 100
+
+E1, psi1 = np.linalg.eigh(obc_Hamiltonian_disordered(N, W1, nu, seed=67))
+E2, psi2 = np.linalg.eigh(obc_Hamiltonian_disordered(N, W2, nu, seed=67))
+\end{lstlisting}
+
+Then we can find the edge states by identifying the eigenvalues that are closest to zero:
+
+\begin{lstlisting}
+edge_states_1 = np.argsort(np.abs(E1))[:2]
+edge_states_2 = np.argsort(np.abs(E2))[:2]
+
+print("W = 0.2 edge state energies:", E1[edge_states_1])
+print("W = 0.4 edge state energies:", E2[edge_states_2])
+\end{lstlisting}
+
+The outputs are as follows:
+
+\begin{lstlisting}
+W = 0.2 edge state energies: [-0.02428976  0.02461507]
+W = 0.4 edge state energies: [-0.04884587  0.05275579]
+\end{lstlisting}
+
+\nt{The outputs show that the same edge states in the clean system persist in the presence of disorder, albeit with slightly shifted energies.}
+
+Plotting the energy spectrum and wave function probability distributions for the disordered system:
+
+\begin{lstlisting}
+plt.figure(figsize=(10, 6))
+N = 100
+
+plt.plot(E1, 'o', markersize=3, label="OBC W = 0.2")
+plt.plot(edge_states_1, E1[edge_states_1], "ro", markersize=8)
+plt.xlabel('Eigenvalue Index')
+plt.ylabel('Eigenvalue')
+plt.title('Eigenvalues of OBC Hamiltonians')
+plt.legend(loc='upper left')
+plt.grid(True, alpha = 0.3)
+plt.xlim(0, 2 * N)
+plt.show()
+
+plt.figure(figsize=(10, 6))
+
+plt.plot(E2, 'o', markersize=3, label="OBC W = 0.4")
+plt.plot(edge_states_2, E2[edge_states_2], "ro", markersize=8)
+plt.xlabel('Eigenvalue Index')
+plt.ylabel('Eigenvalue')
+plt.title('Eigenvalues of OBC Hamiltonians')
+plt.legend(loc='upper left')
+plt.grid(True, alpha = 0.3)
+plt.xlim(0, 2 * N)
+plt.show()
+\end{lstlisting}
+
+\begin{figure}[H]
+    \centering
+
+    \begin{minipage}{0.48\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{fig/Question 2/OBC_disordered_zero_E_state_1.png}
+        \caption{Energy spectrum for OBC with disorder $W = 0.2$}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.48\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{fig/Question 2/OBC_disordered_zero_E_state_2.png}
+        \caption{Energy spectrum for OBC with disorder $W = 0.4$}
+    \end{minipage}
+\end{figure}
+
+\nt{These plots shows that bigger disorder strength leads to larger energy shifts for the edge states, but they still persist as long as the disorder strength is smaller than the bulk gap.}
+
+Plotting the wave function probability distributions for the edge states in the disordered system:
+
+\begin{lstlisting}
+x = np.arange(2 * N)
+
+for W, E, psi, edge_states in [
+    (0.2, E1, psi1, edge_states_1),
+    (0.4, E2, psi2, edge_states_2),
+]:
+    plt.figure(figsize=(10, 6))
+
+    for idx in edge_states:
+        plt.plot(x, np.abs(psi[:, idx])**2, label=f"State {idx}, E={E[idx]:.3f}")
+
+    plt.xlabel("Position index")
+    plt.ylabel(r"$|\psi(x)|^2$")
+    plt.title(f"Edge-state probability distributions, W = {W}")
+    plt.legend()
+    plt.grid(True, alpha=0.3)
+    plt.show()
+\end{lstlisting}
+
+\begin{figure}[H]
+    \centering
+
+    \begin{minipage}{0.48\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{fig/Question 2/OBC_disordered_zero_E_state_wavefunction_1.png}
+        \caption{Edge state probability distribution for $W = 0.2$}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.48\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{fig/Question 2/OBC_disordered_zero_E_state_wavefunction_2.png}
+        \caption{Edge state probability distribution for $W = 0.4$}
+    \end{minipage}
+\end{figure}
+
+\appendix
+\chapter*{Appendix}
+\addcontentsline{toc}{chapter}{Appendix}
+
+I used Jupyter Notebook to finish the coding of this project and have uploaded the notebook to GitHub. You can find it at the following link \url{https://github.com/zengxuanliu2005/Solid_State_Physics_Project}.
 
 \end{document}

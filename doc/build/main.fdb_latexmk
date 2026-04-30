@@ -1,11 +1,11 @@
 # Fdb version 4
-["xdvipdfmx"] 1777525475.27674 "build/main.xdv" "build/main.pdf" "build/main" 1777525475.6622 0
-  "build/main.xdv" 1777525475.22585 273084 aafe5d5573a9aed915f4c7e3219aed96 "xelatex"
+["xdvipdfmx"] 1777585329.64804 "build/main.xdv" "build/main.pdf" "build/main" 1777585331.20715 0
+  "build/main.xdv" 1777585329.5365 530876 855110d39cd0d91dc0e5cd2ae6fdb478 "xelatex"
   (generated)
   "build/main.pdf"
   (rewritten before read)
-["xelatex"] 1777525474.28225 "/Users/liuzengxuan/VSCode/solid-state-project/doc/main.tex" "build/main.xdv" "main" 1777525475.6606 0
-  "/Users/liuzengxuan/VSCode/solid-state-project/doc/main.tex" 1777525474.17646 11450 5931e62d9fbe785e7427cec8699b3dbf ""
+["xelatex"] 1777585326.93595 "/Users/liuzengxuan/VSCode/solid-state-project/doc/main.tex" "build/main.xdv" "main" 1777585331.20358 0
+  "/Users/liuzengxuan/VSCode/solid-state-project/doc/main.tex" 1777585321.19391 23944 a3bebb838082318eeb77bbeee13caf73 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1246382020 916 f87d7c45f9c908e672703b83b72241a3 ""
@@ -241,12 +241,24 @@
   "/usr/local/texlive/2025/texmf-dist/web2c/texmf.cnf" 1739380943 42148 61becc7c670cd061bb319c643c27fdd4 ""
   "/usr/local/texlive/2025/texmf-var/web2c/xetex/xelatex.fmt" 1741450550 5639796 b6822fbf027c6598cec2e241e0925725 ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
-  "build/main.aux" 1777525475.22514 1766 01f0f9c20439eea2ebb4060164219e58 "xelatex"
-  "build/main.toc" 1777525475.22581 468 3212718b9aaf1a00da805a9affbce64a "xelatex"
-  "fig/Question 1/Eigenvalues_PBC_OBC.png" 1777520258.87603 32352 50bb8ee66147d978c0cf9814419b0d99 ""
+  "build/main.aux" 1777585329.53502 4210 15e6959f8b1bf29d337e36a635262a45 "xelatex"
+  "build/main.toc" 1777585329.5364 793 b80884d56ff6b2ac54bd736136a7abb7 "xelatex"
+  "fig/Question 1/Eigenvalues_PBC_OBC.png" 1777583176.21058 30859 26327126e2888a72ed7fcfbe2801f8c4 ""
   "fig/Question 1/OBC_Prob_Distribution.png" 1777520632.49461 83008 9572df8ab14826db88496428acfad0e2 ""
   "fig/Question 1/PBC_Prob_Distribution.png" 1777520618.49791 68315 30502b65c58cd14bdf141660ea15f4da ""
-  "main.tex" 1777525474.17646 11450 5931e62d9fbe785e7427cec8699b3dbf ""
+  "fig/Question 2/OBC_E_1.png" 1777583351.49643 23283 53ea6c64cd3e11f0dc141a0abf94bee2 ""
+  "fig/Question 2/OBC_E_2.png" 1777583359.43008 25171 98a3320301638c0e05aa288561064b44 ""
+  "fig/Question 2/OBC_E_3.png" 1777583369.78375 21729 ff850c70f4b5fef5842a77cae76f2d20 ""
+  "fig/Question 2/OBC_disordered_zero_E_state_1.png" 1777584711.51372 26014 8d82d6f474aef66790d98ba6392e77af ""
+  "fig/Question 2/OBC_disordered_zero_E_state_2.png" 1777584721.59603 27095 31b9aeba9ee039b1ddb98ef64c3db359 ""
+  "fig/Question 2/OBC_disordered_zero_E_state_wavefunction_1.png" 1777584894.31505 30175 9d168c671dfca11374ccfcf299c01926 ""
+  "fig/Question 2/OBC_disordered_zero_E_state_wavefunction_2.png" 1777584908.48318 30835 1cf92ce5b7cebdcd7d6fe5551320572c ""
+  "fig/Question 2/OBC_zero_E_state_1.png" 1777583546.74606 30753 c126d96317f1fd8440ed57038a9145da ""
+  "fig/Question 2/OBC_zero_E_state_2.png" 1777583556.18666 30888 1014e61b65fa1b5e7334d74303b9f1a1 ""
+  "fig/Question 2/PBC_E_1.png" 1777583209.4884 24850 22bfe3a13563a88fbfc12f216a49b8fb ""
+  "fig/Question 2/PBC_E_2.png" 1777583217.64869 27208 b08625e7bb8aeeb5d07d354c0ecf9f57 ""
+  "fig/Question 2/PBC_E_3.png" 1777583226.56393 23397 734eebc507cf40c5833c1560ba5a650b ""
+  "main.tex" 1777585321.19391 23944 a3bebb838082318eeb77bbeee13caf73 ""
   "scr/letterfonts.tex" 1777440659.70936 8537 4c3350ce4cc96fc47f6dde523ec66493 ""
   "scr/macros.tex" 1777519678.85288 3389 c4a9a4d88c8f5f50aef08514125cf778 ""
   "scr/preamble.tex" 1777521238.34563 20337 a684d73d89416122f1a0b4946cb29e65 ""
