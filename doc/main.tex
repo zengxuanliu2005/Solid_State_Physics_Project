@@ -46,38 +46,38 @@ def obc_Hamiltonian(n, t = 1):
     return H
 \end{lstlisting}
 
-\nt{$n$ is the number of lattice sites and $t$ is the hopping parameter. The key to ensure periodic boundary conditions is touse modulo arithmetic to connect the first and last lattice sites.}
+\nt{$n$ is the number of lattice sites and $t$ is the hopping parameter. The key to ensure periodic boundary conditions is to use modulo arithmetic to connect the first and last lattice sites.}
 
 \begin{Example}{Simple 1D Tight-Binding Model Hamiltonian in PBC and OBC}{}
     \begin{lstlisting}
-    # Example
-    N = 5
-    H_PBC = pbc_Hamiltonian(N)
-    H_OBC = obc_Hamiltonian(N)
+# Example
+N = 5
+H_PBC = pbc_Hamiltonian(N)
+H_OBC = obc_Hamiltonian(N)
 
-    print("Hamiltonian in PBC:")
-    print(H_PBC)
-    print(scipy.linalg.ishermitian(H_PBC))
-    print("Hamiltonian in OBC:")
-    print(H_OBC)
-    print(scipy.linalg.ishermitian(H_OBC))
+print("Hamiltonian in PBC:")
+print(H_PBC)
+print(scipy.linalg.ishermitian(H_PBC))
+print("Hamiltonian in OBC:")
+print(H_OBC)
+print(scipy.linalg.ishermitian(H_OBC))
     \end{lstlisting}
-    whose outputs are as follows:
+whose outputs are as follows:
     \begin{lstlisting}
-    Hamiltonian in PBC:
-    [[ 0. -1.  0.  0. -1.]
-    [-1.  0. -1.  0.  0.]
-    [ 0. -1.  0. -1.  0.]
-    [ 0.  0. -1.  0. -1.]
-    [-1.  0.  0. -1.  0.]]
-    True
-    Hamiltonian in OBC:
-    [[ 0. -1.  0.  0.  0.]
-    [-1.  0. -1.  0.  0.]
-    [ 0. -1.  0. -1.  0.]
-    [ 0.  0. -1.  0. -1.]
-    [ 0.  0.  0. -1.  0.]]
-    True
+Hamiltonian in PBC:
+[[ 0. -1.  0.  0. -1.]
+[-1.  0. -1.  0.  0.]
+[ 0. -1.  0. -1.  0.]
+[ 0.  0. -1.  0. -1.]
+[-1.  0.  0. -1.  0.]]
+True
+Hamiltonian in OBC:
+[[ 0. -1.  0.  0.  0.]
+[-1.  0. -1.  0.  0.]
+[ 0. -1.  0. -1.  0.]
+[ 0.  0. -1.  0. -1.]
+[ 0.  0.  0. -1.  0.]]
+True
     \end{lstlisting}
 \end{Example}
 
@@ -233,5 +233,77 @@ plot_ground_and_excited_states(N, E_OBC, psi_OBC, "OBC probability distributions
 \setcounter{tcb@cnt@question}{0}
 
 \qs{}{Write a program to construct the Hamiltonian matrix for this system in both periodic and open boundary conditions. Make sure that there is an equal number of $A$ and $B$ sites.}
+
+\dfnc{The Su–Schrieffer–Heeger (SSH) model}{The Su-Schrieffer-Heeger model describes a dimerized chain of $N$ unit cells with alterna1ng hopping magnitudes. The unit cell contains two sites ($A$ and $B$ sites), with intracell hopping $\nu$ and intercell hopping $\omega$. The Hamiltonian is given by $$ H = -\sum_{n = 0} \Big(\nu \ket{n; B}\bra{n; A} + \nu \ket{n; A}\bra{n; B}) + \omega \ket{n + 1; A}\bra{n; B}) + \omega \ket{n; B}\bra{n + 1; A}\Big) $$ where $n$ runs over all unit cells. In what follows, use $\omega = 1$ in your simulation.}
+
+\sol We are going to define the Hamiltonian matrix for the SSH model in both periodic and open boundary conditions using the code block below:
+
+\begin{lstlisting}
+# PBC 
+def pbc_Hamiltonian(n, nu, omega = 1):
+    H = np.zeros((2 * n, 2 * n))
+    for i in range(n):
+        H[2 * i + 1, 2 * i] = -nu
+        H[2 * i, 2 * i + 1] = -nu
+        H[2 * (i + 1) % (2 * n), 2 * i + 1] = -omega
+        H[2 * i + 1, 2 * (i + 1) % (2 * n)] = -omega
+    return H
+
+# OBC
+def obc_Hamiltonian(n, nu, omega=1):
+    H = np.zeros((2 * n, 2 * n))
+    for i in range(n):
+        H[2 * i + 1, 2 * i] = -nu
+        H[2 * i, 2 * i + 1] = -nu
+    for i in range(n - 1):
+        H[2 * (i + 1), 2 * i + 1] = -omega
+        H[2 * i + 1, 2 * (i + 1)] = -omega
+    return H
+\end{lstlisting}
+
+\begin{example}{SSH Hamiltonian in PBC and OBC}{}
+    \begin{lstlisting}
+# Example
+N = 5
+nu = 2
+omega = 1
+H_PBC = pbc_Hamiltonian(N, nu, omega)
+H_OBC = obc_Hamiltonian(N, nu, omega)
+
+print("Hamiltonian in PBC:")
+print(H_PBC)
+print(scipy.linalg.ishermitian(H_PBC))
+print("Hamiltonian in OBC:")
+print(H_OBC)
+print(scipy.linalg.ishermitian(H_OBC))
+    \end{lstlisting}
+    whose outputs are as follows:
+    \begin{lstlisting}
+Hamiltonian in PBC:
+[[ 0. -2.  0.  0.  0.  0.  0.  0.  0. -1.]
+ [-2.  0. -1.  0.  0.  0.  0.  0.  0.  0.]
+ [ 0. -1.  0. -2.  0.  0.  0.  0.  0.  0.]
+ [ 0.  0. -2.  0. -1.  0.  0.  0.  0.  0.]
+ [ 0.  0.  0. -1.  0. -2.  0.  0.  0.  0.]
+ [ 0.  0.  0.  0. -2.  0. -1.  0.  0.  0.]
+ [ 0.  0.  0.  0.  0. -1.  0. -2.  0.  0.]
+ [ 0.  0.  0.  0.  0.  0. -2.  0. -1.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0. -1.  0. -2.]
+ [-1.  0.  0.  0.  0.  0.  0.  0. -2.  0.]]
+True
+Hamiltonian in OBC:
+[[ 0. -2.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [-2.  0. -1.  0.  0.  0.  0.  0.  0.  0.]
+ [ 0. -1.  0. -2.  0.  0.  0.  0.  0.  0.]
+ [ 0.  0. -2.  0. -1.  0.  0.  0.  0.  0.]
+ [ 0.  0.  0. -1.  0. -2.  0.  0.  0.  0.]
+ [ 0.  0.  0.  0. -2.  0. -1.  0.  0.  0.]
+ [ 0.  0.  0.  0.  0. -1.  0. -2.  0.  0.]
+ [ 0.  0.  0.  0.  0.  0. -2.  0. -1.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0. -1.  0. -2.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0. -2.  0.]]
+True
+    \end{lstlisting}
+\end{example}
 
 \end{document}
