@@ -9,7 +9,9 @@
 \usepackage{xfrac}
 \usepackage[makeroom]{cancel}
 \usepackage{mathtools}
+\usepackage{braket}
 \usepackage{bookmark}
+\usepackage{float}
 \usepackage{enumitem}
 \usepackage{hyperref,theoremref}
 \hypersetup{
@@ -20,6 +22,18 @@
 }
 \usepackage[most,many,breakable]{tcolorbox}
 \usepackage{xcolor}
+\usepackage{listings}
+\lstset{
+  language=Python,
+  basicstyle=\ttfamily\small,
+  keywordstyle=\color{blue},
+  commentstyle=\color{gray},
+  stringstyle=\color{teal},
+  breaklines=true,
+  frame=single,
+  columns=fullflexible,
+  keepspaces=true
+}
 \usepackage{varwidth}
 \usepackage{varwidth}
 \usepackage{etoolbox}
@@ -84,7 +98,7 @@
 % TCOLORBOX SETUPS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\setlength{\parindent}{1cm}
+\setlength{\parindent}{0pt}
 %================================
 % THEOREM BOX
 %================================

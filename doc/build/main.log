@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.8)  28 APR 2026 22:36
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.8)  29 APR 2026 20:57
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -326,7 +326,7 @@ LaTeX template Info: Declaring instance 'cmtt' of type xfrac on line 392.
 
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/cancel/cancel.sty
 Package: cancel 2013/04/12 v2.2 Cancel math terms
-) (/usr/local/texlive/2025/texmf-dist/tex/latex/bookmark/bookmark.sty
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/braket/braket.sty) (/usr/local/texlive/2025/texmf-dist/tex/latex/bookmark/bookmark.sty
 Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
  (/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2024-11-05 v7.01l Hypertext links for LaTeX
@@ -432,29 +432,36 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/bookmark/bkm-dvipdfm.def
 File: bkm-dvipdfm.def 2023-12-10 v1.31 bookmark driver for dvipdfm (HO)
 \BKM@id=\count304
-)) (/usr/local/texlive/2025/texmf-dist/tex/latex/enumitem/enumitem.sty
+)) (/usr/local/texlive/2025/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count305
+\float@exts=\toks35
+\float@box=\box58
+\@float@everytoks=\toks36
+\@floatcapt=\box59
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2025/02/06 v3.11 Customized lists
 \labelindent=\skip62
 \enit@outerparindent=\dimen180
-\enit@toks=\toks35
-\enit@inbox=\box58
-\enit@count@id=\count305
-\enitdp@description=\count306
+\enit@toks=\toks37
+\enit@inbox=\box60
+\enit@count@id=\count306
+\enitdp@description=\count307
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/theoremref/theoremref.sty
 Package: theoremref 2013/05/22 References with automatic theorem names
-\thmref@num=\count307
+\thmref@num=\count308
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 20.
-Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 20.
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 20.
+Package hyperref Info: Option `colorlinks' set `true' on input line 22.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 22.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 22.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
 Package: tcolorbox 2024/10/22 version 6.4.1 text color boxes
  (/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
-\pgfutil@everybye=\toks36
+\pgfutil@everybye=\toks38
 \pgfutil@tempdima=\dimen181
 \pgfutil@tempdimb=\dimen182
 ) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
-\pgfutil@abb=\box59
+\pgfutil@abb=\box61
 ) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/pgf.revision.tex)
 Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
 ))
@@ -462,10 +469,10 @@ Package: pgf 2023-01-15 v3.1.10 (3.1.10)
  (/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
 Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
  (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks37
-\pgfkeys@temptoks=\toks38
+\pgfkeys@pathtoks=\toks39
+\pgfkeys@temptoks=\toks40
  (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.code.tex
-\pgfkeys@tmptoks=\toks39
+\pgfkeys@tmptoks=\toks41
 ))
 \pgf@x=\dimen183
 \pgf@y=\dimen184
@@ -479,14 +486,14 @@ Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
 \pgf@yd=\dimen192
 \w@pgf@writea=\write3
 \r@pgf@reada=\read3
-\c@pgf@counta=\count308
-\c@pgf@countb=\count309
-\c@pgf@countc=\count310
-\c@pgf@countd=\count311
-\t@pgf@toka=\toks40
-\t@pgf@tokb=\toks41
-\t@pgf@tokc=\toks42
-\pgf@sys@id@count=\count312
+\c@pgf@counta=\count309
+\c@pgf@countb=\count310
+\c@pgf@countc=\count311
+\c@pgf@countd=\count312
+\t@pgf@toka=\toks42
+\t@pgf@tokb=\toks43
+\t@pgf@tokc=\toks44
+\pgf@sys@id@count=\count313
  (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
 )
@@ -498,11 +505,11 @@ File: pgfsys-dvipdfmx.def 2023-01-15 v3.1.10 (3.1.10)
  (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
 File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
 )
-\pgfsys@objnum=\count313
+\pgfsys@objnum=\count314
 ))) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfsyssoftpath@smallbuffer@items=\count314
-\pgfsyssoftpath@bigbuffer@items=\count315
+\pgfsyssoftpath@smallbuffer@items=\count315
+\pgfsyssoftpath@bigbuffer@items=\count316
 ) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )) (/usr/local/texlive/2025/texmf-dist/tex/latex/xcolor/xcolor.sty
@@ -524,13 +531,13 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
 Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
  (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen193
-\pgfmath@count=\count316
-\pgfmath@box=\box60
-\pgfmath@toks=\toks43
-\pgfmath@stack@operand=\toks44
-\pgfmath@stack@operation=\toks45
+\pgfmath@count=\count317
+\pgfmath@box=\box62
+\pgfmath@toks=\toks45
+\pgfmath@stack@operand=\toks46
+\pgfmath@stack@operation=\toks47
 ) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count317
+\c@pgfmathroundto@lastzeros=\count318
 )) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@picminx=\dimen194
@@ -557,10 +564,10 @@ File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@shorten@start@additional=\dimen267
 ) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfpic=\box61
-\pgf@hbox=\box62
-\pgf@layerbox@main=\box63
-\pgf@picture@serial@count=\count318
+\pgfpic=\box63
+\pgf@hbox=\box64
+\pgf@layerbox@main=\box65
+\pgf@picture@serial@count=\count319
 ) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgflinewidth=\dimen268
@@ -581,13 +588,13 @@ File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@max=\dimen273
-\pgf@sys@shading@range@num=\count319
-\pgf@shadingcount=\count320
+\pgf@sys@shading@range@num=\count320
+\pgf@shadingcount=\count321
 ) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
 File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfexternal@startupbox=\box64
+\pgfexternal@startupbox=\box66
 ) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
 File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
@@ -598,7 +605,7 @@ File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
 File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ))) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfnodeparttextbox=\box65
+\pgfnodeparttextbox=\box67
 ) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
@@ -611,13 +618,13 @@ Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
 Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
 \pgffor@iter=\dimen276
 \pgffor@skip=\dimen277
-\pgffor@stack=\toks46
-\pgffor@toks=\toks47
+\pgffor@stack=\toks48
+\pgffor@toks=\toks49
 )) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2023-01-15 v3.1.10 (3.1.10)
  (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@plot@mark@count=\count321
+\pgf@plot@mark@count=\count322
 \pgfplotmarksize=\dimen278
 )
 \tikz@lastx=\dimen279
@@ -628,52 +635,52 @@ File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \tikz@lastmovetoy=\dimen284
 \tikzleveldistance=\dimen285
 \tikzsiblingdistance=\dimen286
-\tikz@figbox=\box66
-\tikz@figbox@bg=\box67
-\tikz@tempbox=\box68
-\tikz@tempbox@bg=\box69
-\tikztreelevel=\count322
-\tikznumberofchildren=\count323
-\tikznumberofcurrentchild=\count324
-\tikz@fig@count=\count325
+\tikz@figbox=\box68
+\tikz@figbox@bg=\box69
+\tikz@tempbox=\box70
+\tikz@tempbox@bg=\box71
+\tikztreelevel=\count323
+\tikznumberofchildren=\count324
+\tikznumberofcurrentchild=\count325
+\tikz@fig@count=\count326
  (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfmatrixcurrentrow=\count326
-\pgfmatrixcurrentcolumn=\count327
-\pgf@matrix@numberofcolumns=\count328
+\pgfmatrixcurrentrow=\count327
+\pgfmatrixcurrentcolumn=\count328
+\pgf@matrix@numberofcolumns=\count329
 )
-\tikz@expandcount=\count329
+\tikz@expandcount=\count330
  (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ))) (/usr/local/texlive/2025/texmf-dist/tex/latex/tools/verbatim.sty
 Package: verbatim 2024-01-22 v1.5x LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks48
-\verbatim@line=\toks49
+\every@verbatim=\toks50
+\verbatim@line=\toks51
 \verbatim@in@stream=\read4
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/environ/environ.sty
 Package: environ 2014/05/04 v0.3 A new way to define environments
  (/usr/local/texlive/2025/texmf-dist/tex/latex/trimspaces/trimspaces.sty
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 ))
-\tcb@titlebox=\box70
-\tcb@upperbox=\box71
-\tcb@lowerbox=\box72
-\tcb@phantombox=\box73
-\c@tcbbreakpart=\count330
-\c@tcblayer=\count331
-\c@tcolorbox@number=\count332
-\l__tcobox_tmpa_box=\box74
+\tcb@titlebox=\box72
+\tcb@upperbox=\box73
+\tcb@lowerbox=\box74
+\tcb@phantombox=\box75
+\c@tcbbreakpart=\count331
+\c@tcblayer=\count332
+\c@tcolorbox@number=\count333
+\l__tcobox_tmpa_box=\box76
 \l__tcobox_tmpa_dim=\dimen287
-\tcb@temp=\box75
-\tcb@temp=\box76
 \tcb@temp=\box77
 \tcb@temp=\box78
+\tcb@temp=\box79
+\tcb@temp=\box80
  (/usr/local/texlive/2025/texmf-dist/tex/latex/tcolorbox/tcbraster.code.tex
 Library (tcolorbox): 'tcbraster.code.tex' version '6.4.1'
-\c@tcbrastercolumn=\count333
-\c@tcbrasterrow=\count334
-\c@tcbrasternum=\count335
-\c@tcbraster=\count336
+\c@tcbrastercolumn=\count334
+\c@tcbrasterrow=\count335
+\c@tcbrasternum=\count336
+\c@tcbraster=\count337
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/tcolorbox/tcbskins.code.tex
 Library (tcolorbox): 'tcbskins.code.tex' version '6.4.1'
 (/usr/local/texlive/2025/texmf-dist/tex/latex/tikzfill/tikzfill.image.sty
@@ -682,7 +689,7 @@ Package: tikzfill.image 2023/08/08 v1.0.1 Image filling library for TikZ
 Package: tikzfill-common 2023/08/08 v1.0.1 Auxiliary code for tikzfill
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/tikzfill/tikzlibraryfill.image.code.tex
 File: tikzlibraryfill.image.code.tex 2023/08/08 v1.0.1 Image filling library
-\l__tikzfill_img_box=\box79
+\l__tikzfill_img_box=\box81
 )) (/usr/local/texlive/2025/texmf-dist/tex/latex/tcolorbox/tcbskinsjigsaw.code.tex
 Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '6.4.1'
 )) (/usr/local/texlive/2025/texmf-dist/tex/latex/tcolorbox/tcbbreakable.code.tex
@@ -692,9 +699,9 @@ Package: pdfcol 2022-09-21 v1.7 Handle new color stacks for pdfTeX (HO)
 Package pdfcol Info: Interface disabled because of missing PDF mode of pdfTeX.
 )
 Package pdfcol Info: pdfTeX's color stacks are not available.
-\tcb@testbox=\box80
-\tcb@totalupperbox=\box81
-\tcb@totallowerbox=\box82
+\tcb@testbox=\box82
+\tcb@totalupperbox=\box83
+\tcb@totallowerbox=\box84
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/tcolorbox/tcbhooks.code.tex
 Library (tcolorbox): 'tcbhooks.code.tex' version '6.4.1'
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/tcolorbox/tcbtheorems.code.tex
@@ -704,31 +711,31 @@ Library (tcolorbox): 'tcbfitting.code.tex' version '6.4.1'
 \tcbfitdim=\dimen288
 \tcb@lowerfitdim=\dimen289
 \tcb@upperfitdim=\dimen290
-\tcb@cur@hbadness=\count337
+\tcb@cur@hbadness=\count338
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/tcolorbox/tcblistingsutf8.code.tex
 Library (tcolorbox): 'tcblistingsutf8.code.tex' version '6.4.1'
 (/usr/local/texlive/2025/texmf-dist/tex/latex/tcolorbox/tcblistings.code.tex
 Library (tcolorbox): 'tcblistings.code.tex' version '6.4.1'
 (/usr/local/texlive/2025/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count338
-\lst@gtempboxa=\box83
-\lst@token=\toks50
-\lst@length=\count339
+\lst@mode=\count339
+\lst@gtempboxa=\box85
+\lst@token=\toks52
+\lst@length=\count340
 \lst@currlwidth=\dimen291
-\lst@column=\count340
-\lst@pos=\count341
+\lst@column=\count341
+\lst@pos=\count342
 \lst@lostspace=\dimen292
 \lst@width=\dimen293
-\lst@newlines=\count342
-\lst@lineno=\count343
+\lst@newlines=\count343
+\lst@lineno=\count344
 \lst@maxwidth=\dimen294
  (/usr/local/texlive/2025/texmf-dist/tex/latex/listings/lstpatch.sty
 File: lstpatch.sty 2024/09/23 1.10c (Carsten Heinz)
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2024/09/23 1.10c (Carsten Heinz)
-\c@lstnumber=\count344
-\lst@skipnumbers=\count345
-\lst@framebox=\box84
+\c@lstnumber=\count345
+\lst@skipnumbers=\count346
+\lst@framebox=\box86
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2024/09/23 1.10c listings configuration
 ))
@@ -738,7 +745,7 @@ Library (tcolorbox): 'tcblistingscore.code.tex' version '6.4.1'
 (/usr/local/texlive/2025/texmf-dist/tex/latex/tcolorbox/tcbprocessing.code.tex
 Library (tcolorbox): 'tcbprocessing.code.tex' version '6.4.1'
 )
-\c@tcblisting=\count346
+\c@tcblisting=\count347
 ))
 Package tcolorbox Info: Library `listingsutf8' is compatible with pdftex only. Library `listings` is loaded instead. on input line 29.
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/tcolorbox/tcbexternal.code.tex
@@ -753,38 +760,38 @@ File: tikzlibraryfadings.code.tex 2023-01-15 v3.1.10 (3.1.10)
 File: pgflibraryfadings.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ))) (/usr/local/texlive/2025/texmf-dist/tex/latex/tcolorbox/tcbposter.code.tex
 Library (tcolorbox): 'tcbposter.code.tex' version '6.4.1'
-)) (/usr/local/texlive/2025/texmf-dist/tex/latex/varwidth/varwidth.sty
+)) (/usr/local/texlive/2025/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2024/09/23 1.10c listings language file
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/varwidth/varwidth.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
-\@vwid@box=\box85
-\sift@deathcycles=\count347
+\@vwid@box=\box87
+\sift@deathcycles=\count348
 \@vwid@loff=\dimen295
 \@vwid@roff=\dimen296
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2024/09/14 v1.9i multicolumn formatting (FMi)
-\c@tracingmulticols=\count348
-\mult@box=\box86
+\c@tracingmulticols=\count349
+\mult@box=\box88
 \multicol@leftmargin=\dimen297
-\c@unbalance=\count349
-\c@collectmore=\count350
-\doublecol@number=\count351
-\multicoltolerance=\count352
-\multicolpretolerance=\count353
+\c@unbalance=\count350
+\c@collectmore=\count351
+\doublecol@number=\count352
+\multicoltolerance=\count353
+\multicolpretolerance=\count354
 \full@width=\dimen298
 \page@free=\dimen299
 \premulticols=\dimen300
 \postmulticols=\dimen301
 \multicolsep=\skip63
 \multicolbaselineskip=\skip64
-\partial@page=\box87
-\last@line=\box88
-\mc@boxedresult=\box89
+\partial@page=\box89
+\last@line=\box90
+\mc@boxedresult=\box91
 \maxbalancingoverflow=\dimen302
-\mult@rightbox=\box90
-\mult@grightbox=\box91
-\mult@firstbox=\box92
-\mult@gfirstbox=\box93
-\@tempa=\box94
-\@tempa=\box95
+\mult@rightbox=\box92
+\mult@grightbox=\box93
+\mult@firstbox=\box94
+\mult@gfirstbox=\box95
 \@tempa=\box96
 \@tempa=\box97
 \@tempa=\box98
@@ -819,24 +826,26 @@ Package: multicol 2024/09/14 v1.9i multicolumn formatting (FMi)
 \@tempa=\box127
 \@tempa=\box128
 \@tempa=\box129
-\c@minrows=\count354
-\c@columnbadness=\count355
-\c@finalcolumnbadness=\count356
+\@tempa=\box130
+\@tempa=\box131
+\c@minrows=\count355
+\c@columnbadness=\count356
+\c@finalcolumnbadness=\count357
 \last@try=\dimen303
 \multicolovershoot=\dimen304
 \multicolundershoot=\dimen305
-\mult@nat@firstbox=\box130
-\colbreak@box=\box131
-\mc@col@check@num=\count357
+\mult@nat@firstbox=\box132
+\colbreak@box=\box133
+\mc@col@check@num=\count358
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/tools/array.sty
 Package: array 2024/10/17 v2.6g Tabular extension package (FMi)
 \col@sep=\dimen306
-\ar@mcellbox=\box132
+\ar@mcellbox=\box134
 \extrarowheight=\dimen307
-\NC@list=\toks51
+\NC@list=\toks53
 \extratabsurround=\skip65
 \backup@length=\skip66
-\ar@cellbox=\box133
+\ar@cellbox=\box135
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/tikz-cd/tikz-cd.sty
 Package: tikz-cd 2021/05/04 v1.0 Commutative diagrams with TikZ
  (/usr/local/texlive/2025/texmf-dist/tex/generic/tikz-cd/tikzlibrarycd.code.tex (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarymatrix.code.tex
@@ -854,14 +863,14 @@ Invalid UTF-8 byte or sequence at line 284 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 299 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 550 replaced by U+FFFD.
 Package: algorithm2e 2017/07/18 v5.2 algorithms environments
-\c@AlgoLine=\count358
+\c@AlgoLine=\count359
  (/usr/local/texlive/2025/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
 )
 \algocf@hangindent=\skip67
  (/usr/local/texlive/2025/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
 Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
-\c@checkoddpage=\count359
+\c@checkoddpage=\count360
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/tools/xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/relsize/relsize.sty
@@ -882,26 +891,26 @@ Package: relsize 2013/03/29 ver 4.1
 \interspacealgoruled=\dimen316
 \interspacetitleboxruled=\dimen317
 \algocf@ruledwidth=\skip76
-\algocf@inoutbox=\box134
-\algocf@inputbox=\box135
+\algocf@inoutbox=\box136
+\algocf@inputbox=\box137
 \AlCapSkip=\skip77
 \AlCapHSkip=\skip78
 \algoskipindent=\skip79
-\algocf@nlbox=\box136
-\algocf@hangingbox=\box137
-\algocf@untilbox=\box138
+\algocf@nlbox=\box138
+\algocf@hangingbox=\box139
+\algocf@untilbox=\box140
 \algocf@skipuntil=\skip80
-\algocf@capbox=\box139
+\algocf@capbox=\box141
 \algocf@lcaptionbox=\skip81
 \algoheightruledefault=\skip82
 \algoheightrule=\skip83
 \algotitleheightruledefault=\skip84
 \algotitleheightrule=\skip85
-\c@algocfline=\count360
-\c@algocfproc=\count361
-\c@algocf=\count362
-\algocf@algoframe=\box140
-\algocf@algobox=\box141
+\c@algocfline=\count361
+\c@algocfproc=\count362
+\c@algocf=\count363
+\algocf@algoframe=\box142
+\algocf@algobox=\box143
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/comment/comment.sty
 \CommentStream=\write4
  Excluding comment 'comment') (/usr/local/texlive/2025/texmf-dist/tex/latex/import/import.sty
@@ -923,14 +932,14 @@ Package: eso-pic 2023/05/03 v3.0c eso-pic (RN)
  (/usr/local/texlive/2025/texmf-dist/tex/latex/pdfpages/ppxetex.def
 File: ppxetex.def 2025/01/30 v0.6e Pdfpages driver for XeTeX (AM)
 )
-\pdfpages@includegraphics@status=\count363
-\AM@pagebox=\box142
-\AM@global@opts=\toks52
-\AM@pagecnt=\count364
-\AM@toc@title=\toks53
-\AM@lof@heading=\toks54
-\c@AM@survey=\count365
-\AM@templatesizebox=\box143
+\pdfpages@includegraphics@status=\count364
+\AM@pagebox=\box144
+\AM@global@opts=\toks54
+\AM@pagecnt=\count365
+\AM@toc@title=\toks55
+\AM@lof@heading=\toks56
+\c@AM@survey=\count366
+\AM@templatesizebox=\box145
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/transparent/transparent.sty
 Package: transparent 2022-10-27 v1.5 Transparency with color stacks
  (/usr/local/texlive/2025/texmf-dist/tex/latex/transparent/transparent-nometadata.sty
@@ -943,10 +952,10 @@ Package transparent Warning: Loading aborted, because pdfTeX is not running in P
 Package: expl3 2025-01-18 L3 programming layer (loader) 
  (/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
 File: l3backend-xetex.def 2024-05-08 L3 backend support: XeTeX
-\g__graphics_track_int=\count366
-\l__pdf_internal_box=\box144
-\g__pdf_backend_annotation_int=\count367
-\g__pdf_backend_link_int=\count368
+\g__graphics_track_int=\count367
+\l__pdf_internal_box=\box146
+\g__pdf_backend_annotation_int=\count368
+\g__pdf_backend_link_int=\count369
 ))
 Package: xparse 2024-08-16 L3 Experimental document command parser
 )
@@ -964,124 +973,124 @@ File: pgflibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfdecoratedinputsegmentcompleteddistance=\dimen326
 \pgfdecoratedinputsegmentremainingdistance=\dimen327
 \pgf@decorate@distancetomove=\dimen328
-\pgf@decorate@repeatstate=\count369
+\pgf@decorate@repeatstate=\count370
 \pgfdecorationsegmentamplitude=\dimen329
 \pgfdecorationsegmentlength=\dimen330
 )
-\tikz@lib@dec@box=\box145
+\tikz@lib@dec@box=\box147
 ) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathmorphing.code.tex)) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytrees.code.tex
 File: tikzlibrarytrees.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
 \l__tikzsymbols_Moai_thickness_dim=\dimen331
-\l__tikzsymbols_Kochtopf_nr_arguments_int=\count370
-\l__tikzsymbols_Bratpfanne_nr_arguments_int=\count371
-\l__tikzsymbols_Schneebesen_nr_arguments_int=\count372
-\l__tikzsymbols_Sieb_nr_arguments_int=\count373
-\l__tikzsymbols_Purierstab_nr_arguments_int=\count374
-\l__tikzsymbols_Dreizack_nr_arguments_int=\count375
-\l__tikzsymbols_Backblech_nr_arguments_int=\count376
-\l__tikzsymbols_Ofen_nr_arguments_int=\count377
-\l__tikzsymbols_Pfanne_nr_arguments_int=\count378
-\l__tikzsymbols_Herd_nr_arguments_int=\count379
-\l__tikzsymbols_Saftpresse_nr_arguments_int=\count380
-\l__tikzsymbols_Schussel_nr_arguments_int=\count381
-\l__tikzsymbols_Schaler_nr_arguments_int=\count382
-\l__tikzsymbols_Reibe_nr_arguments_int=\count383
-\l__tikzsymbols_Flasche_nr_arguments_int=\count384
-\l__tikzsymbols_Nudelholz_nr_arguments_int=\count385
-\l__tikzsymbols_Knoblauchpresse_nr_arguments_int=\count386
-\l__tikzsymbols_Sadey_nr_arguments_int=\count387
-\l__tikzsymbols_dSadey_nr_arguments_int=\count388
-\l__tikzsymbols_Changey_nr_arguments_int=\count389
-\l__tikzsymbols_dChangey_nr_arguments_int=\count390
-\l__tikzsymbols_cChangey_nr_arguments_int=\count391
-\l__tikzsymbols_dcChangey_nr_arguments_int=\count392
-\l__tikzsymbols_Annoey_nr_arguments_int=\count393
-\l__tikzsymbols_dAnnoey_nr_arguments_int=\count394
-\l__tikzsymbols_Smiley_nr_arguments_int=\count395
-\l__tikzsymbols_dSmiley_nr_arguments_int=\count396
-\l__tikzsymbols_Laughey_nr_arguments_int=\count397
-\l__tikzsymbols_dLaughey_nr_arguments_int=\count398
-\l__tikzsymbols_Neutrey_nr_arguments_int=\count399
-\l__tikzsymbols_dNeutrey_nr_arguments_int=\count400
-\l__tikzsymbols_Winkey_nr_arguments_int=\count401
-\l__tikzsymbols_oldWinkey_nr_arguments_int=\count402
-\l__tikzsymbols_dWinkey_nr_arguments_int=\count403
-\l__tikzsymbols_olddWinkey_nr_arguments_int=\count404
-\l__tikzsymbols_Sey_nr_arguments_int=\count405
-\l__tikzsymbols_dSey_nr_arguments_int=\count406
-\l__tikzsymbols_Xey_nr_arguments_int=\count407
-\l__tikzsymbols_dXey_nr_arguments_int=\count408
-\l__tikzsymbols_Innocey_nr_arguments_int=\count409
-\l__tikzsymbols_wInnocey_nr_arguments_int=\count410
-\l__tikzsymbols_dInnocey_nr_arguments_int=\count411
-\l__tikzsymbols_Cooley_nr_arguments_int=\count412
-\l__tikzsymbols_dCooley_nr_arguments_int=\count413
-\l__tikzsymbols_Tongey_nr_arguments_int=\count414
-\l__tikzsymbols_dTongey_nr_arguments_int=\count415
-\l__tikzsymbols_Nursey_nr_arguments_int=\count416
-\l__tikzsymbols_dNursey_nr_arguments_int=\count417
-\l__tikzsymbols_Vomey_nr_arguments_int=\count418
-\l__tikzsymbols_dVomey_nr_arguments_int=\count419
-\l__tikzsymbols_Walley_nr_arguments_int=\count420
-\l__tikzsymbols_rWalley_nr_arguments_int=\count421
-\l__tikzsymbols_dWalley_nr_arguments_int=\count422
-\l__tikzsymbols_drWalley_nr_arguments_int=\count423
-\l__tikzsymbols_Cat_nr_arguments_int=\count424
-\l__tikzsymbols_SchrodingersCat_nr_arguments_int=\count425
-\l__tikzsymbols_Ninja_nr_arguments_int=\count426
-\l__tikzsymbols_dNinja_nr_arguments_int=\count427
-\l__tikzsymbols_Sleepey_nr_arguments_int=\count428
-\l__tikzsymbols_dSleepey_nr_arguments_int=\count429
-\l__tikzsymbols_Maskey_nr_arguments_int=\count430
-\l__tikzsymbols_NiceReapey_nr_arguments_int=\count431
-\l__tikzsymbols_Strichmaxerl_nr_arguments_int=\count432
-\l__tikzsymbols_Person_nr_arguments_int=\count433
-\l__tikzsymbols_Heart_nr_arguments_int=\count434
-\l__tikzsymbols_dHeart_nr_arguments_int=\count435
-\l__tikzsymbols_HeartBroken_nr_arguments_int=\count436
-\l__tikzsymbols_Candle_nr_arguments_int=\count437
-\l__tikzsymbols_Fire_nr_arguments_int=\count438
-\l__tikzsymbols_Coffeecup_nr_arguments_int=\count439
-\l__tikzsymbols_Chair_nr_arguments_int=\count440
-\l__tikzsymbols_Bed_nr_arguments_int=\count441
-\l__tikzsymbols_Tribar_nr_arguments_int=\count442
-\l__tikzsymbols_Moai_nr_arguments_int=\count443
-\l__tikzsymbols_Snowman_nr_arguments_int=\count444
-\l__tikzsymbols_BasicTree_nr_arguments_int=\count445
-\l__tikzsymbols_WorstTree_nr_arguments_int=\count446
-\l__tikzsymbols_Springtree_nr_arguments_int=\count447
-\l__tikzsymbols_Summertree_nr_arguments_int=\count448
-\l__tikzsymbols_Autumntree_nr_arguments_int=\count449
-\l__tikzsymbols_Wintertree_nr_arguments_int=\count450
+\l__tikzsymbols_Kochtopf_nr_arguments_int=\count371
+\l__tikzsymbols_Bratpfanne_nr_arguments_int=\count372
+\l__tikzsymbols_Schneebesen_nr_arguments_int=\count373
+\l__tikzsymbols_Sieb_nr_arguments_int=\count374
+\l__tikzsymbols_Purierstab_nr_arguments_int=\count375
+\l__tikzsymbols_Dreizack_nr_arguments_int=\count376
+\l__tikzsymbols_Backblech_nr_arguments_int=\count377
+\l__tikzsymbols_Ofen_nr_arguments_int=\count378
+\l__tikzsymbols_Pfanne_nr_arguments_int=\count379
+\l__tikzsymbols_Herd_nr_arguments_int=\count380
+\l__tikzsymbols_Saftpresse_nr_arguments_int=\count381
+\l__tikzsymbols_Schussel_nr_arguments_int=\count382
+\l__tikzsymbols_Schaler_nr_arguments_int=\count383
+\l__tikzsymbols_Reibe_nr_arguments_int=\count384
+\l__tikzsymbols_Flasche_nr_arguments_int=\count385
+\l__tikzsymbols_Nudelholz_nr_arguments_int=\count386
+\l__tikzsymbols_Knoblauchpresse_nr_arguments_int=\count387
+\l__tikzsymbols_Sadey_nr_arguments_int=\count388
+\l__tikzsymbols_dSadey_nr_arguments_int=\count389
+\l__tikzsymbols_Changey_nr_arguments_int=\count390
+\l__tikzsymbols_dChangey_nr_arguments_int=\count391
+\l__tikzsymbols_cChangey_nr_arguments_int=\count392
+\l__tikzsymbols_dcChangey_nr_arguments_int=\count393
+\l__tikzsymbols_Annoey_nr_arguments_int=\count394
+\l__tikzsymbols_dAnnoey_nr_arguments_int=\count395
+\l__tikzsymbols_Smiley_nr_arguments_int=\count396
+\l__tikzsymbols_dSmiley_nr_arguments_int=\count397
+\l__tikzsymbols_Laughey_nr_arguments_int=\count398
+\l__tikzsymbols_dLaughey_nr_arguments_int=\count399
+\l__tikzsymbols_Neutrey_nr_arguments_int=\count400
+\l__tikzsymbols_dNeutrey_nr_arguments_int=\count401
+\l__tikzsymbols_Winkey_nr_arguments_int=\count402
+\l__tikzsymbols_oldWinkey_nr_arguments_int=\count403
+\l__tikzsymbols_dWinkey_nr_arguments_int=\count404
+\l__tikzsymbols_olddWinkey_nr_arguments_int=\count405
+\l__tikzsymbols_Sey_nr_arguments_int=\count406
+\l__tikzsymbols_dSey_nr_arguments_int=\count407
+\l__tikzsymbols_Xey_nr_arguments_int=\count408
+\l__tikzsymbols_dXey_nr_arguments_int=\count409
+\l__tikzsymbols_Innocey_nr_arguments_int=\count410
+\l__tikzsymbols_wInnocey_nr_arguments_int=\count411
+\l__tikzsymbols_dInnocey_nr_arguments_int=\count412
+\l__tikzsymbols_Cooley_nr_arguments_int=\count413
+\l__tikzsymbols_dCooley_nr_arguments_int=\count414
+\l__tikzsymbols_Tongey_nr_arguments_int=\count415
+\l__tikzsymbols_dTongey_nr_arguments_int=\count416
+\l__tikzsymbols_Nursey_nr_arguments_int=\count417
+\l__tikzsymbols_dNursey_nr_arguments_int=\count418
+\l__tikzsymbols_Vomey_nr_arguments_int=\count419
+\l__tikzsymbols_dVomey_nr_arguments_int=\count420
+\l__tikzsymbols_Walley_nr_arguments_int=\count421
+\l__tikzsymbols_rWalley_nr_arguments_int=\count422
+\l__tikzsymbols_dWalley_nr_arguments_int=\count423
+\l__tikzsymbols_drWalley_nr_arguments_int=\count424
+\l__tikzsymbols_Cat_nr_arguments_int=\count425
+\l__tikzsymbols_SchrodingersCat_nr_arguments_int=\count426
+\l__tikzsymbols_Ninja_nr_arguments_int=\count427
+\l__tikzsymbols_dNinja_nr_arguments_int=\count428
+\l__tikzsymbols_Sleepey_nr_arguments_int=\count429
+\l__tikzsymbols_dSleepey_nr_arguments_int=\count430
+\l__tikzsymbols_Maskey_nr_arguments_int=\count431
+\l__tikzsymbols_NiceReapey_nr_arguments_int=\count432
+\l__tikzsymbols_Strichmaxerl_nr_arguments_int=\count433
+\l__tikzsymbols_Person_nr_arguments_int=\count434
+\l__tikzsymbols_Heart_nr_arguments_int=\count435
+\l__tikzsymbols_dHeart_nr_arguments_int=\count436
+\l__tikzsymbols_HeartBroken_nr_arguments_int=\count437
+\l__tikzsymbols_Candle_nr_arguments_int=\count438
+\l__tikzsymbols_Fire_nr_arguments_int=\count439
+\l__tikzsymbols_Coffeecup_nr_arguments_int=\count440
+\l__tikzsymbols_Chair_nr_arguments_int=\count441
+\l__tikzsymbols_Bed_nr_arguments_int=\count442
+\l__tikzsymbols_Tribar_nr_arguments_int=\count443
+\l__tikzsymbols_Moai_nr_arguments_int=\count444
+\l__tikzsymbols_Snowman_nr_arguments_int=\count445
+\l__tikzsymbols_BasicTree_nr_arguments_int=\count446
+\l__tikzsymbols_WorstTree_nr_arguments_int=\count447
+\l__tikzsymbols_Springtree_nr_arguments_int=\count448
+\l__tikzsymbols_Summertree_nr_arguments_int=\count449
+\l__tikzsymbols_Autumntree_nr_arguments_int=\count450
+\l__tikzsymbols_Wintertree_nr_arguments_int=\count451
 )
-\c@tcb@cnt@Theorem=\count451
-\c@tcb@cnt@theorem=\count452
-\c@tcb@cnt@Corollary=\count453
-\c@tcb@cnt@corollary=\count454
-\c@tcb@cnt@Lenma=\count455
-\c@tcb@cnt@lenma=\count456
-\c@tcb@cnt@Prop=\count457
-\c@tcb@cnt@prop=\count458
-\c@tcb@cnt@claim=\count459
-\c@tcb@cnt@Exercise=\count460
-\c@tcb@cnt@exercise=\count461
-\c@tcb@cnt@Example=\count462
-\c@tcb@cnt@example=\count463
-\c@tcb@cnt@Definition=\count464
-\c@tcb@cnt@definition=\count465
-\c@tcb@cnt@question=\count466
-\c@tcb@cnt@qstion=\count467
-\c@tcb@cnt@wconc=\count468
+\c@tcb@cnt@Theorem=\count452
+\c@tcb@cnt@theorem=\count453
+\c@tcb@cnt@Corollary=\count454
+\c@tcb@cnt@corollary=\count455
+\c@tcb@cnt@Lenma=\count456
+\c@tcb@cnt@lenma=\count457
+\c@tcb@cnt@Prop=\count458
+\c@tcb@cnt@prop=\count459
+\c@tcb@cnt@claim=\count460
+\c@tcb@cnt@Exercise=\count461
+\c@tcb@cnt@exercise=\count462
+\c@tcb@cnt@Example=\count463
+\c@tcb@cnt@example=\count464
+\c@tcb@cnt@Definition=\count465
+\c@tcb@cnt@definition=\count466
+\c@tcb@cnt@question=\count467
+\c@tcb@cnt@qstion=\count468
+\c@tcb@cnt@wconc=\count469
  (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarycalc.code.tex
 File: tikzlibrarycalc.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/pgf-blur/tikzlibraryshadows.blur.code.tex  v1.02, 2012/12/09 (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshadows.code.tex
 File: tikzlibraryshadows.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
-\pgfbs@fading@count=\count469
+\pgfbs@fading@count=\count470
 )
-\c@mylabelcounter=\count470
-\diffdbox=\box146
+\c@mylabelcounter=\count471
+\diffdbox=\box148
  (/usr/local/texlive/2025/texmf-dist/tex/latex/titlesec/titletoc.sty
 Package: titletoc 2025/01/04 v2.17 TOC entries
 \ttl@leftsep=\dimen332
@@ -1166,7 +1175,7 @@ LaTeX Font Info:    ... okay on input line 11.
 LaTeX Info: Command `\dddot' is already robust on input line 11.
 LaTeX Info: Command `\ddddot' is already robust on input line 11.
 Package hyperref Info: Link coloring ON on input line 11.
-\c@lstlisting=\count471
+\c@lstlisting=\count472
 (/usr/local/texlive/2025/texmf-dist/tex/latex/pdflscape/pdflscape.sty
 Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
  (/usr/local/texlive/2025/texmf-dist/tex/latex/pdflscape/pdflscape-nometadata.sty
@@ -1212,6 +1221,7 @@ Missing character: There is no ; ("3B) in font nullfont!
 Missing character: There is no ; ("3B) in font nullfont!
 (build/main.toc
 Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
 )
 \tf@toc=\write5
 \openout5 = `main.toc'.
@@ -1227,14 +1237,28 @@ Chapter 1.
 [2
 
 ]
-\g__tikzsymbols_savebox_F_gray 0_10_Laughey_1_none_none_box=\box147
-
 
 [3]
+File: fig/Question 1/Eigenvalues_PBC_OBC.png Graphic file (type bmp)
+<fig/Question 1/Eigenvalues_PBC_OBC.png>
+
 
 [4]
+File: fig/Question 1/PBC_Prob_Distribution.png Graphic file (type bmp)
+<fig/Question 1/PBC_Prob_Distribution.png>
+File: fig/Question 1/OBC_Prob_Distribution.png Graphic file (type bmp)
+<fig/Question 1/OBC_Prob_Distribution.png>
 
-[5] (build/main.aux)
+
+[5]
+
+[6]
+Chapter 2.
+
+
+[7
+
+] (build/main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -1245,12 +1269,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 36549 strings out of 473832
- 736270 string characters out of 5729482
- 1234764 words of memory out of 5000000
- 58933 multiletter control sequences out of 15000+600000
- 615500 words of font info for 147 fonts, out of 8000000 for 9000
+ 36810 strings out of 473832
+ 739902 string characters out of 5729482
+ 1442375 words of memory out of 5000000
+ 59201 multiletter control sequences out of 15000+600000
+ 597579 words of font info for 116 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 103i,12n,108p,591b,1780s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 103i,7n,108p,591b,1747s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on build/main.xdv (6 pages, 139776 bytes).
+Output written on build/main.xdv (8 pages, 230256 bytes).

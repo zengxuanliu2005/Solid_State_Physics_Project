@@ -75,6 +75,8 @@ INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics-def/xetex.def
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics-def/xetex.def
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/cancel/cancel.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/cancel/cancel.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/braket/braket.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/braket/braket.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/bookmark/bookmark.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/bookmark/bookmark.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hyperref.sty
@@ -135,6 +137,8 @@ INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/uniquecounter/uniquecounter
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/bookmark/bkm-dvipdfm.def
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/bookmark/bkm-dvipdfm.def
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/bookmark/bkm-dvipdfm.def
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/float/float.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/float/float.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/enumitem/enumitem.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/enumitem/enumitem.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/theoremref/theoremref.sty
@@ -290,6 +294,9 @@ INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libr
 INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/pgf/libraries/pgflibraryfadings.code.tex
 INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/pgf/libraries/pgflibraryfadings.code.tex
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/tcolorbox/tcbposter.code.tex
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/listings/lstlang1.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/listings/lstlang1.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/listings/lstlang1.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/varwidth/varwidth.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/varwidth/varwidth.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/tools/multicol.sty
@@ -483,28 +490,14 @@ INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/newpx/zplsyc.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/newpx/zplexa.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/newpx/zplexa.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/newpx/zplexa.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/rm-lmb10.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/rm-lmb10.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/rm-lmb10.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/newpx/zplbmi.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/newpx/zplbmi.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/newpx/zplbmi.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/newpx/zplbsy.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/newpx/zplbsy.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/newpx/zplbsy.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/newpx/zplbexx.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/newpx/zplbexx.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/newpx/zplbexx.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/newpx/zplbmia.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/newpx/zplbmia.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/newpx/zplbmia.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/newpx/zplbsym.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/newpx/zplbsym.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/newpx/zplbsym.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/newpx/zplbsyc.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/newpx/zplbsyc.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/newpx/zplbsyc.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/newpx/zplbexa.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/newpx/zplbexa.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/newpx/zplbexa.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmtt9.tfm
+INPUT ./fig/Question 1/Eigenvalues_PBC_OBC.png
+INPUT ./fig/Question 1/Eigenvalues_PBC_OBC.png
+INPUT ./fig/Question 1/Eigenvalues_PBC_OBC.png
+INPUT ./fig/Question 1/PBC_Prob_Distribution.png
+INPUT ./fig/Question 1/PBC_Prob_Distribution.png
+INPUT ./fig/Question 1/PBC_Prob_Distribution.png
+INPUT ./fig/Question 1/OBC_Prob_Distribution.png
+INPUT ./fig/Question 1/OBC_Prob_Distribution.png
+INPUT ./fig/Question 1/OBC_Prob_Distribution.png
 INPUT build/main.aux

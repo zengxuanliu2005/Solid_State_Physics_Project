@@ -1,5 +1,6 @@
 \contentsline {chapter}{\numberline {1}Simple 1D Tight-Binding Model}{2}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Task 1: Hamiltonian construction}{2}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Random}{3}{section.1.2}%
-\contentsline {section}{\numberline {1.3}Algorithms}{5}{section.1.3}%
+\contentsline {section}{\numberline {1.2}Task 2: Eigenvalue problem}{3}{section.1.2}%
+\contentsline {chapter}{\numberline {2}The Su–Schrieffer–Heeger (SSH) model}{7}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Task 1: Hamiltonian construction}{7}{section.2.1}%
 \contentsfinish 
