@@ -140,7 +140,7 @@ E_OBC, psi_OBC = np.linalg.eigh(obc_Hamiltonian(N))
         E(k) = -2t \cos(k) = -2t \cos\left(\frac{2\pi m}{N}\right)
     $$
 
-    which shows the degeneracy that $E(k) = E(-k)$.
+    which shows the degeneracy that $E(k) = E(-k)$. 
 
     \textbf{(b) OBC:} For the open boundary conditions, we can use standing wave eigenstates, we can write:
 
@@ -189,7 +189,7 @@ E_OBC, psi_OBC = np.linalg.eigh(obc_Hamiltonian(N))
 
 \begin{note}{}
     \begin{enumerate}
-        \item PBC: The probability distribution for the ground state and first two excited states shows a periodic pattern due to the boundary conditions. For the first two excited states, they are degenerate and the numerical eigenvectors are different linear combinations of the degenerate states. But both of them show two nodes, and their shapes are quite alike.
+        \item PBC: The probability distribution for the ground state and first two excited states shows a periodic pattern due to the boundary conditions. For the first two excited states, they are degenerate and the wavefunctions are complex conjugates of each other, which leads to the same probability distribution shape for both states.
         \item OBC: The number of nodes in the probability distribution for the ground state and first two excited states are 0, 1, and 2 respectively, increasing with the energy level.
     \end{enumerate}
 \end{note}
